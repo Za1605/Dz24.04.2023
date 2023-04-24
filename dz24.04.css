@@ -1,0 +1,32 @@
+div.box>li:nth-child(even){
+    border: 1px solid;
+    color: deeppink;
+
+}
+.box{
+    padding: 20px;
+}
+ div.box1>li:nth-child(odd){
+    border: 1px solid;
+    font-size: 22px;}
+
+    .box1{
+        padding: 20px;
+    }
+
+    div.box2 > ul >li:nth-child(2n+4)::after{
+        content: "!";
+    }
+
+    div.box3>ul>li:last-child{
+        color: violet;
+    }
+
+    div.box4>ul>li:first-child{
+
+   color: red;
+   font-size: 30px;
+}
+div{
+    background-image: url(favicon);
+}
